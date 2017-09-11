@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C03E511FAACA31EB3AA0EE41 /* libPods-CYLiveApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C96FDA668189B7732C2CACAD /* libPods-CYLiveApp.a */; };
+		DDC244EE1F5D86D70070B052 /* YZCreatorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC244EB1F5D86D70070B052 /* YZCreatorItem.m */; };
+		DDC244EF1F5D86D70070B052 /* YZLiveItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC244ED1F5D86D70070B052 /* YZLiveItem.m */; };
+		DDC244F41F5D870B0070B052 /* YZLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC244F21F5D870B0070B052 /* YZLiveCell.m */; };
+		DDC244F51F5D870B0070B052 /* YZLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC244F31F5D870B0070B052 /* YZLiveCell.xib */; };
+		DDC244FC1F5D94B50070B052 /* ZLLiveHeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC244FA1F5D94B50070B052 /* ZLLiveHeartView.m */; };
+		DDC58C4B1F5C3848002FA002 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC58C4A1F5C3848002FA002 /* main.m */; };
+		DDC58C4E1F5C3848002FA002 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC58C4D1F5C3848002FA002 /* AppDelegate.m */; };
+		DDC58C511F5C3848002FA002 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC58C501F5C3848002FA002 /* ViewController.m */; };
+		DDC58C541F5C3848002FA002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC58C521F5C3848002FA002 /* Main.storyboard */; };
+		DDC58C561F5C3848002FA002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC58C551F5C3848002FA002 /* Assets.xcassets */; };
+		DDC58C591F5C3848002FA002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC58C571F5C3848002FA002 /* LaunchScreen.storyboard */; };
+		DDC58C641F5C3848002FA002 /* CYLiveAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC58C631F5C3848002FA002 /* CYLiveAppTests.m */; };
+		DDC58C6F1F5C3848002FA002 /* CYLiveAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC58C6E1F5C3848002FA002 /* CYLiveAppUITests.m */; };
+		DDC58C7D1F5C387B002FA002 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC58C7C1F5C387B002FA002 /* IJKMediaFramework.framework */; };
+		DDC58C801F5C3934002FA002 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC58C7F1F5C3934002FA002 /* AudioToolbox.framework */; };
+		DDC58C821F5C393F002FA002 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC58C811F5C393F002FA002 /* AVFoundation.framework */; };
+		DDC58C841F5C394D002FA002 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC58C831F5C394D002FA002 /* CoreGraphics.framework */; };
+		DDC58C861F5C3955002FA002 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC58C851F5C3955002FA002 /* CoreVideo.framework */; };
+		DDC58C881F5C3964002FA002 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC58C871F5C3964002FA002 /* libbz2.tbd */; };
+		DDC58C8A1F5C396D002FA002 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC58C891F5C396D002FA002 /* libz.tbd */; };
+		DDC58C8C1F5C3979002FA002 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC58C8B1F5C3979002FA002 /* MediaPlayer.framework */; };
+		DDC58C8E1F5C3983002FA002 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC58C8D1F5C3983002FA002 /* MobileCoreServices.framework */; };
+		DDC58C901F5C398B002FA002 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC58C8F1F5C398B002FA002 /* OpenGLES.framework */; };
+		DDC58C921F5C3996002FA002 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC58C911F5C3996002FA002 /* VideoToolbox.framework */; };
+		DDC58C951F5C3C00002FA002 /* CYPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC58C941F5C3C00002FA002 /* CYPlayerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDC58C601F5C3848002FA002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC58C3E1F5C3848002FA002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC58C451F5C3848002FA002;
+			remoteInfo = CYLiveApp;
+		};
+		DDC58C6B1F5C3848002FA002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC58C3E1F5C3848002FA002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC58C451F5C3848002FA002;
+			remoteInfo = CYLiveApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DC50A2C6C58E6E5A2C68FC9 /* Pods-CYLiveApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYLiveApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYLiveApp/Pods-CYLiveApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A8508AD29D2C8AC93119A5BE /* Pods-CYLiveApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYLiveApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYLiveApp/Pods-CYLiveApp.release.xcconfig"; sourceTree = "<group>"; };
+		C96FDA668189B7732C2CACAD /* libPods-CYLiveApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYLiveApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC244EA1F5D86D70070B052 /* YZCreatorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCreatorItem.h; sourceTree = "<group>"; };
+		DDC244EB1F5D86D70070B052 /* YZCreatorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZCreatorItem.m; sourceTree = "<group>"; };
+		DDC244EC1F5D86D70070B052 /* YZLiveItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLiveItem.h; sourceTree = "<group>"; };
+		DDC244ED1F5D86D70070B052 /* YZLiveItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZLiveItem.m; sourceTree = "<group>"; };
+		DDC244F11F5D870B0070B052 /* YZLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLiveCell.h; sourceTree = "<group>"; };
+		DDC244F21F5D870B0070B052 /* YZLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZLiveCell.m; sourceTree = "<group>"; };
+		DDC244F31F5D870B0070B052 /* YZLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZLiveCell.xib; sourceTree = "<group>"; };
+		DDC244F91F5D94B50070B052 /* ZLLiveHeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLiveHeartView.h; sourceTree = "<group>"; };
+		DDC244FA1F5D94B50070B052 /* ZLLiveHeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLiveHeartView.m; sourceTree = "<group>"; };
+		DDC58C461F5C3848002FA002 /* CYLiveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYLiveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC58C4A1F5C3848002FA002 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDC58C4C1F5C3848002FA002 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDC58C4D1F5C3848002FA002 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDC58C4F1F5C3848002FA002 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDC58C501F5C3848002FA002 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDC58C531F5C3848002FA002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDC58C551F5C3848002FA002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC58C581F5C3848002FA002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDC58C5A1F5C3848002FA002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC58C5F1F5C3848002FA002 /* CYLiveAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYLiveAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC58C631F5C3848002FA002 /* CYLiveAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLiveAppTests.m; sourceTree = "<group>"; };
+		DDC58C651F5C3848002FA002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC58C6A1F5C3848002FA002 /* CYLiveAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYLiveAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC58C6E1F5C3848002FA002 /* CYLiveAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLiveAppUITests.m; sourceTree = "<group>"; };
+		DDC58C701F5C3848002FA002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC58C7C1F5C387B002FA002 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		DDC58C7F1F5C3934002FA002 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DDC58C811F5C393F002FA002 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DDC58C831F5C394D002FA002 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDC58C851F5C3955002FA002 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DDC58C871F5C3964002FA002 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		DDC58C891F5C396D002FA002 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DDC58C8B1F5C3979002FA002 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DDC58C8D1F5C3983002FA002 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DDC58C8F1F5C398B002FA002 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DDC58C911F5C3996002FA002 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		DDC58C931F5C3C00002FA002 /* CYPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPlayerController.h; sourceTree = "<group>"; };
+		DDC58C941F5C3C00002FA002 /* CYPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPlayerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC58C431F5C3848002FA002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC58C921F5C3996002FA002 /* VideoToolbox.framework in Frameworks */,
+				DDC58C901F5C398B002FA002 /* OpenGLES.framework in Frameworks */,
+				DDC58C8E1F5C3983002FA002 /* MobileCoreServices.framework in Frameworks */,
+				DDC58C8C1F5C3979002FA002 /* MediaPlayer.framework in Frameworks */,
+				DDC58C8A1F5C396D002FA002 /* libz.tbd in Frameworks */,
+				DDC58C881F5C3964002FA002 /* libbz2.tbd in Frameworks */,
+				DDC58C861F5C3955002FA002 /* CoreVideo.framework in Frameworks */,
+				DDC58C841F5C394D002FA002 /* CoreGraphics.framework in Frameworks */,
+				DDC58C821F5C393F002FA002 /* AVFoundation.framework in Frameworks */,
+				DDC58C801F5C3934002FA002 /* AudioToolbox.framework in Frameworks */,
+				DDC58C7D1F5C387B002FA002 /* IJKMediaFramework.framework in Frameworks */,
+				C03E511FAACA31EB3AA0EE41 /* libPods-CYLiveApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC58C5C1F5C3848002FA002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC58C671F5C3848002FA002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55FB0B2A97D2055019BCDBD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DC50A2C6C58E6E5A2C68FC9 /* Pods-CYLiveApp.debug.xcconfig */,
+				A8508AD29D2C8AC93119A5BE /* Pods-CYLiveApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DDC244E91F5D86D70070B052 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDC244EA1F5D86D70070B052 /* YZCreatorItem.h */,
+				DDC244EB1F5D86D70070B052 /* YZCreatorItem.m */,
+				DDC244EC1F5D86D70070B052 /* YZLiveItem.h */,
+				DDC244ED1F5D86D70070B052 /* YZLiveItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDC244F01F5D870B0070B052 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDC244F11F5D870B0070B052 /* YZLiveCell.h */,
+				DDC244F21F5D870B0070B052 /* YZLiveCell.m */,
+				DDC244F31F5D870B0070B052 /* YZLiveCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDC244F61F5D94B50070B052 /* 直播点赞 */ = {
+			isa = PBXGroup;
+			children = (
+				DDC244F91F5D94B50070B052 /* ZLLiveHeartView.h */,
+				DDC244FA1F5D94B50070B052 /* ZLLiveHeartView.m */,
+			);
+			path = "直播点赞";
+			sourceTree = "<group>";
+		};
+		DDC58C3D1F5C3848002FA002 = {
+			isa = PBXGroup;
+			children = (
+				DDC58C481F5C3848002FA002 /* CYLiveApp */,
+				DDC58C621F5C3848002FA002 /* CYLiveAppTests */,
+				DDC58C6D1F5C3848002FA002 /* CYLiveAppUITests */,
+				DDC58C471F5C3848002FA002 /* Products */,
+				DDC58C7E1F5C3934002FA002 /* Frameworks */,
+				55FB0B2A97D2055019BCDBD8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC58C471F5C3848002FA002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC58C461F5C3848002FA002 /* CYLiveApp.app */,
+				DDC58C5F1F5C3848002FA002 /* CYLiveAppTests.xctest */,
+				DDC58C6A1F5C3848002FA002 /* CYLiveAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC58C481F5C3848002FA002 /* CYLiveApp */ = {
+			isa = PBXGroup;
+			children = (
+				DDC244F61F5D94B50070B052 /* 直播点赞 */,
+				DDC58C4C1F5C3848002FA002 /* AppDelegate.h */,
+				DDC58C4D1F5C3848002FA002 /* AppDelegate.m */,
+				DDC58C4F1F5C3848002FA002 /* ViewController.h */,
+				DDC58C501F5C3848002FA002 /* ViewController.m */,
+				DDC58C931F5C3C00002FA002 /* CYPlayerController.h */,
+				DDC58C941F5C3C00002FA002 /* CYPlayerController.m */,
+				DDC244E91F5D86D70070B052 /* Model */,
+				DDC244F01F5D870B0070B052 /* View */,
+				DDC58C521F5C3848002FA002 /* Main.storyboard */,
+				DDC58C551F5C3848002FA002 /* Assets.xcassets */,
+				DDC58C571F5C3848002FA002 /* LaunchScreen.storyboard */,
+				DDC58C5A1F5C3848002FA002 /* Info.plist */,
+				DDC58C491F5C3848002FA002 /* Supporting Files */,
+			);
+			path = CYLiveApp;
+			sourceTree = "<group>";
+		};
+		DDC58C491F5C3848002FA002 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDC58C7C1F5C387B002FA002 /* IJKMediaFramework.framework */,
+				DDC58C4A1F5C3848002FA002 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDC58C621F5C3848002FA002 /* CYLiveAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC58C631F5C3848002FA002 /* CYLiveAppTests.m */,
+				DDC58C651F5C3848002FA002 /* Info.plist */,
+			);
+			path = CYLiveAppTests;
+			sourceTree = "<group>";
+		};
+		DDC58C6D1F5C3848002FA002 /* CYLiveAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC58C6E1F5C3848002FA002 /* CYLiveAppUITests.m */,
+				DDC58C701F5C3848002FA002 /* Info.plist */,
+			);
+			path = CYLiveAppUITests;
+			sourceTree = "<group>";
+		};
+		DDC58C7E1F5C3934002FA002 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC58C911F5C3996002FA002 /* VideoToolbox.framework */,
+				DDC58C8F1F5C398B002FA002 /* OpenGLES.framework */,
+				DDC58C8D1F5C3983002FA002 /* MobileCoreServices.framework */,
+				DDC58C8B1F5C3979002FA002 /* MediaPlayer.framework */,
+				DDC58C891F5C396D002FA002 /* libz.tbd */,
+				DDC58C871F5C3964002FA002 /* libbz2.tbd */,
+				DDC58C851F5C3955002FA002 /* CoreVideo.framework */,
+				DDC58C831F5C394D002FA002 /* CoreGraphics.framework */,
+				DDC58C811F5C393F002FA002 /* AVFoundation.framework */,
+				DDC58C7F1F5C3934002FA002 /* AudioToolbox.framework */,
+				C96FDA668189B7732C2CACAD /* libPods-CYLiveApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC58C451F5C3848002FA002 /* CYLiveApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC58C731F5C3848002FA002 /* Build configuration list for PBXNativeTarget "CYLiveApp" */;
+			buildPhases = (
+				628C8E89FEC14D26DE50CE33 /* [CP] Check Pods Manifest.lock */,
+				DDC58C421F5C3848002FA002 /* Sources */,
+				DDC58C431F5C3848002FA002 /* Frameworks */,
+				DDC58C441F5C3848002FA002 /* Resources */,
+				6E2B4E7B0384AD58C8DFA35F /* [CP] Embed Pods Frameworks */,
+				0746BF359E0A5E88342FDCE2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYLiveApp;
+			productName = CYLiveApp;
+			productReference = DDC58C461F5C3848002FA002 /* CYLiveApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDC58C5E1F5C3848002FA002 /* CYLiveAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC58C761F5C3848002FA002 /* Build configuration list for PBXNativeTarget "CYLiveAppTests" */;
+			buildPhases = (
+				DDC58C5B1F5C3848002FA002 /* Sources */,
+				DDC58C5C1F5C3848002FA002 /* Frameworks */,
+				DDC58C5D1F5C3848002FA002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC58C611F5C3848002FA002 /* PBXTargetDependency */,
+			);
+			name = CYLiveAppTests;
+			productName = CYLiveAppTests;
+			productReference = DDC58C5F1F5C3848002FA002 /* CYLiveAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDC58C691F5C3848002FA002 /* CYLiveAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC58C791F5C3848002FA002 /* Build configuration list for PBXNativeTarget "CYLiveAppUITests" */;
+			buildPhases = (
+				DDC58C661F5C3848002FA002 /* Sources */,
+				DDC58C671F5C3848002FA002 /* Frameworks */,
+				DDC58C681F5C3848002FA002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC58C6C1F5C3848002FA002 /* PBXTargetDependency */,
+			);
+			name = CYLiveAppUITests;
+			productName = CYLiveAppUITests;
+			productReference = DDC58C6A1F5C3848002FA002 /* CYLiveAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC58C3E1F5C3848002FA002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chenyu;
+				TargetAttributes = {
+					DDC58C451F5C3848002FA002 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					DDC58C5E1F5C3848002FA002 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDC58C451F5C3848002FA002;
+					};
+					DDC58C691F5C3848002FA002 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDC58C451F5C3848002FA002;
+					};
+				};
+			};
+			buildConfigurationList = DDC58C411F5C3848002FA002 /* Build configuration list for PBXProject "CYLiveApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC58C3D1F5C3848002FA002;
+			productRefGroup = DDC58C471F5C3848002FA002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC58C451F5C3848002FA002 /* CYLiveApp */,
+				DDC58C5E1F5C3848002FA002 /* CYLiveAppTests */,
+				DDC58C691F5C3848002FA002 /* CYLiveAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC58C441F5C3848002FA002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC58C591F5C3848002FA002 /* LaunchScreen.storyboard in Resources */,
+				DDC58C561F5C3848002FA002 /* Assets.xcassets in Resources */,
+				DDC244F51F5D870B0070B052 /* YZLiveCell.xib in Resources */,
+				DDC58C541F5C3848002FA002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC58C5D1F5C3848002FA002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC58C681F5C3848002FA002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0746BF359E0A5E88342FDCE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYLiveApp/Pods-CYLiveApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		628C8E89FEC14D26DE50CE33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E2B4E7B0384AD58C8DFA35F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYLiveApp/Pods-CYLiveApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC58C421F5C3848002FA002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC58C951F5C3C00002FA002 /* CYPlayerController.m in Sources */,
+				DDC58C511F5C3848002FA002 /* ViewController.m in Sources */,
+				DDC244F41F5D870B0070B052 /* YZLiveCell.m in Sources */,
+				DDC58C4E1F5C3848002FA002 /* AppDelegate.m in Sources */,
+				DDC244FC1F5D94B50070B052 /* ZLLiveHeartView.m in Sources */,
+				DDC244EE1F5D86D70070B052 /* YZCreatorItem.m in Sources */,
+				DDC58C4B1F5C3848002FA002 /* main.m in Sources */,
+				DDC244EF1F5D86D70070B052 /* YZLiveItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC58C5B1F5C3848002FA002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC58C641F5C3848002FA002 /* CYLiveAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC58C661F5C3848002FA002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC58C6F1F5C3848002FA002 /* CYLiveAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDC58C611F5C3848002FA002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC58C451F5C3848002FA002 /* CYLiveApp */;
+			targetProxy = DDC58C601F5C3848002FA002 /* PBXContainerItemProxy */;
+		};
+		DDC58C6C1F5C3848002FA002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC58C451F5C3848002FA002 /* CYLiveApp */;
+			targetProxy = DDC58C6B1F5C3848002FA002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDC58C521F5C3848002FA002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC58C531F5C3848002FA002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDC58C571F5C3848002FA002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC58C581F5C3848002FA002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC58C711F5C3848002FA002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDC58C721F5C3848002FA002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC58C741F5C3848002FA002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC50A2C6C58E6E5A2C68FC9 /* Pods-CYLiveApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CYLiveApp",
+				);
+				INFOPLIST_FILE = CYLiveApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenyu.CYLiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDC58C751F5C3848002FA002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8508AD29D2C8AC93119A5BE /* Pods-CYLiveApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CYLiveApp",
+				);
+				INFOPLIST_FILE = CYLiveApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenyu.CYLiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDC58C771F5C3848002FA002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYLiveAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenyu.CYLiveAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYLiveApp.app/CYLiveApp";
+			};
+			name = Debug;
+		};
+		DDC58C781F5C3848002FA002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYLiveAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenyu.CYLiveAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYLiveApp.app/CYLiveApp";
+			};
+			name = Release;
+		};
+		DDC58C7A1F5C3848002FA002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYLiveAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenyu.CYLiveAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYLiveApp;
+			};
+			name = Debug;
+		};
+		DDC58C7B1F5C3848002FA002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYLiveAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenyu.CYLiveAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYLiveApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC58C411F5C3848002FA002 /* Build configuration list for PBXProject "CYLiveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC58C711F5C3848002FA002 /* Debug */,
+				DDC58C721F5C3848002FA002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC58C731F5C3848002FA002 /* Build configuration list for PBXNativeTarget "CYLiveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC58C741F5C3848002FA002 /* Debug */,
+				DDC58C751F5C3848002FA002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC58C761F5C3848002FA002 /* Build configuration list for PBXNativeTarget "CYLiveAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC58C771F5C3848002FA002 /* Debug */,
+				DDC58C781F5C3848002FA002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC58C791F5C3848002FA002 /* Build configuration list for PBXNativeTarget "CYLiveAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC58C7A1F5C3848002FA002 /* Debug */,
+				DDC58C7B1F5C3848002FA002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC58C3E1F5C3848002FA002 /* Project object */;
+}
